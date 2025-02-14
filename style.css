@@ -1,0 +1,384 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle,#b9b9b9 1px, transparent 1px);
+    background-size: 5px 5px; /* Tamaño de los puntitos */
+}
+@media (min-width: 768px){
+.menu-header{
+    display: none; 
+}
+header{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px; 
+}
+.contenedor-de-parrafos{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-left: 80%; 
+    gap: 10px; 
+}
+.parrafo-quien-soy{
+margin-top: -60px; 
+}
+.parrafo-servicios{
+    margin-top: -60px; 
+}
+.parrafo-escribime{
+    margin-top: -60px; 
+}
+.logo-APX{
+    width: 50px;
+    height:50px;
+    margin-top: -60px; 
+    margin-left: 50px; 
+}
+.presentacion{
+    margin-top: 150px;
+    height: 350px;
+    width: 100%; 
+    margin-left: 30px; 
+}
+.imagen-foto-de-perfil{
+    margin-left: 45%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-de-perfil{
+    width: 150px; 
+    height: 300px;
+    background-color: #f0f0f0;
+    margin: -60px;
+}
+.about-me {
+    height: 350px;
+    width: 100%;  
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.foto-de-check{
+    width: 150px;
+    height: 150px; 
+    margin-top: 100px;
+    position: absolute; 
+    margin-right: 400px; 
+}
+.mi-nombre{
+width: 50px;
+height: 50px;
+color: white; 
+flex-direction: column;
+margin-left: 100px; 
+display: inline-block;
+position: absolute; 
+margin-top: 30px; 
+}
+.descripcion-mia{
+    color: white; 
+    font-size: 15px;
+    margin-top: 50px; 
+    line-height: 2;
+    width: 40%; 
+    margin-top: 100px;
+    margin-left: 590px;  
+    justify-content: space-around;
+    display: inline-block;
+    position: relative;
+}
+.my-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    margin-top: 0;
+    margin: 0 auto; 
+    padding: 0;
+    background-color: white;
+    gap: 0; 
+}
+
+.contenedor-izquierda-servicios,
+.contenedor-medio-servicios,
+.contenedor-derecha-servicios {
+    flex: 1; /* Cada div ocupa el mismo ancho */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar contenido */ 
+    margin-right: 300px; 
+    height: auto;
+    margin-top: 100px;  
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+
+/* Opcional: Ajustar márgenes y rellenos */
+.servicios {
+    margin: 0 0 10px 0; /* Elimina márgenes superiores y agrega espacio debajo */
+    align-self: flex-start; /* Asegura que el título quede alineado al inicio */
+    text-align: left;
+    font-size: 24px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedor-titulo{
+    margin-bottom: 300px;
+    margin-left: 20px; 
+}
+.imagen-de-computadora-izquierda,
+.imagen-de-computadora-media,
+.imagen-de-computadora-derecha {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    position: relative; 
+}
+.algo-interesante-izq,
+.algo-interesante-mid,
+.algo-interesante-der {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    font-size: 14px;    
+}
+.contact-me{
+    overflow: hidden;
+    height: 500px; 
+    width: 100%;
+    background-color: black;
+}
+.escribime{
+    color: white; 
+    font-size: 30px;
+    margin-top: 100px; 
+    margin-left: 300px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor-de-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; 
+    margin-left: 300px; 
+    gap: 20px; 
+    width: 50%;
+    align-items: flex-end;
+    text-align: left;
+}
+input,
+textarea{
+    border:1px solid; 
+    width: 50%;
+    margin-left: 500px; 
+}
+input{
+    height: 30px; 
+}
+button{
+    width: 50%; 
+    height: 50px;
+    margin-right: 7px;  
+    color: black;
+    background-color: yellow;
+}
+textarea{
+    height: 100px; 
+}
+.footer{
+    height: 200px;
+    width: 100%
+}
+.logo-footer{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px; 
+    margin-left: 50px; 
+}
+.derechos{
+    font-size: 15px;
+    margin-left:20px; 
+}
+.redes-owner {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 95%; 
+    gap: 10px; 
+    margin-top: -97px;
+}
+}
+@media (max-width : 767px){
+    header{
+        width: 100%;
+        height: 200px; 
+    }
+    .contenedor-de-parrafos,
+    .parrrafo-quien-soy,
+    .parrafo-escribime,
+    .parrafo-servicios{
+    display: none; 
+    }
+    .menu-header,
+    .logo-APX{
+        width:50px;
+        height: 50px; 
+        justify-content: space-between;
+        margin-left: 15px; 
+        margin-top: 20px; 
+    }
+    .menu-header{
+        position: relative;
+        left: 600px; 
+    }
+    .h1-presentacion{
+        justify-content: center;
+        position: relative;
+        left: 190px;
+        font-size: 40px;
+    }
+    .foto-de-perfil{
+        height: 300px;
+        width: 150px; 
+        position: relative;
+        left: 300px; 
+    }
+    .about-me{
+        width: 100%;
+        height: 450px; 
+        background-color: black;
+    }
+    .foto-de-check{
+        display: inline-block;
+        width: 100px;
+        height: 100px; 
+        position: relative;
+        top: 320px;  
+        left: 310px; 
+    }
+    .mi-nombre,
+    .descripcion-mia{
+        color: white;
+        display: inline-block;
+    }
+    .mi-nombre{
+        font-size: 35px; 
+        position: relative;
+        left: 58px; 
+    }
+    .descripcion-mia{
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center; 
+        margin-left: 20px; 
+    }
+    .my-services{
+        background-color: whitesmoke;
+        overflow: hidden; 
+        height: auto; 
+    }
+    .imagen-de-computadora-izquierda,
+    .imagen-de-computadora-media,
+    .imagen-de-computadora-derecha{
+        width: 200px; 
+        height: 200px;
+        position: relative;
+        left: 270px;  
+    }
+    .contenedor-izquierda-servicios,
+    .contenedor-medio-servicios,
+    .contenedor-derecha-servicios{
+        margin-top: 100px; 
+        position: relative; 
+    }
+    .servicios{
+        position: relative; 
+        left: 300px; 
+        display: inline-block;
+        font-size: 30px; 
+    }
+    .hago-cosas-izq,
+    .hago-cosas-mid{
+        position: relative;
+        left: 300px;
+        font-size: 30px;
+    }
+    .hago-cosas-der{
+        font-size: 30px;
+        position:relative;
+        left: 250px; 
+    }
+    .algo-interesante-der,
+    .algo-interesante-mid,
+    .algo-interesante-izq{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        font-size:16px;
+        width: 180px; 
+        position:relative;
+        left: 300px; 
+    }
+    .contact-me{
+        height: 500px;
+        width: 100%; 
+        background-color: black;
+        overflow: hidden;
+    }
+    .escribime{
+        color: white; 
+        font-size: 40px;
+        position:relative;
+        left: 280px;  
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+    }
+    .contenedor-de-inputs{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px; 
+        position:relative;
+        left: 60px; 
+        gap: 40px; 
+        width: 85%; 
+    }
+    input{
+        border: 1px solid black; 
+        height: 30px; 
+    }
+    textarea{
+        border:1px solid black;
+        height: 60px; 
+    }
+    button{
+        background-color: rgb(214, 214, 16);
+        border: none;
+        height: 30px; 
+    }
+    .footer{
+        width: 100%;
+        height: 350px; 
+        background-color: #dbdbdb;
+    }
+    .logo-footer{
+        width:70px;
+        height: 70px; 
+        margin-top:40px; 
+        margin-left: 30px; 
+    }
+    .derechos{
+        margin-left: 30px;
+    }
+    .redes-owner{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px; 
+        gap:30px; 
+        margin-left: 30px; 
+    }
+}
